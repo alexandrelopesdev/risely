@@ -1,0 +1,67 @@
+
+.Nó
+[width="100%",options="header,footer"]
+|====================
+
+| Objeto | Tipos
+
+|pais
+|String
+
+|casos
+|Int
+
+|recuperados
+|Int
+
+|obitos
+|Int
+
+|casos_ativos
+|Int
+
+|====================
+
+[source,C]
+
+void inserirNoinicio();
+void inserirNoMeio();
+void inserirNoFinal();
+void imprimirLista();
+void pesqusarElemento();
+void totalCasos();
+void totalMortis();
+void tamanhoLista();
+void totalRecuperados();
+void ordenPaisAscend(); // em termo de casos
+void removeInicio();
+void removeFinal();
+
+
+==== Color in C
+|===
+||
+|0 => Preto |  8 => Cinza     
+
+|1 => Azul| 9 => Azul claro
+
+|2 => Verde|  A => Verde Claro
+
+|3 => Verde-água| B => Verde-agua claro
+
+|4 => Vermelho|  C => Vermelho Claro
+
+|5 => Roxo|  D => Vermelho Claro
+
+|6 => Amarelo|  E => Lilás
+
+|7 => Branco|   F => Branco Brilhante
+|===
+
+[source,c]
+system("color 1F")
+//1 => Plano de fundo na cor Azul
+//F => Texto na cor branco
+
+[source,c]
+system("cls");
